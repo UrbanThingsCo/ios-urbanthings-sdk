@@ -32,7 +32,7 @@ Depending upon the nature of the response, the `reponseObject` will be either an
 
 The supplied constants in `TransitDataSerializationConstants` can be used to access the fields, e.g.
 
-        [NSString stringWithFormat:@"The name of this bus stop is '%@'", [self.transitStop valueForKey:kJSONKeyPlacePointName]]
+    [NSString stringWithFormat:@"The name of this bus stop is '%@'", [responseObject valueForKey:kJSONKeyPlacePointName]]
 
 If the request fails (either by the API returning a non-200 Status Code, or an `APIResponse` with the `Success` field set to `FALSE`) then the client returns a `nil` response object and an appropriate `displayError` string broadly describing the reason for failure. _Note that the raw HTTP message describing failure information is not currently passed through by the client._
 
