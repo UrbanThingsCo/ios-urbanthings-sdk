@@ -28,7 +28,15 @@ Data is returned, via a completion block:
 
 The client handles the unwrapping of the `APIResponse` object and returns its `data` field as a `responseObject` if the request has succeeded.
 
+Depending upon the nature of the response, the `reponseObject` will be either an array (`NSArray`) or a dictionary (`NSDictionary`).
+
+The supplied constants in `TransitDataSerializationConstants` can be used to access the fields, e.g.
+
+        [NSString stringWithFormat:@"The name of this bus stop is '%@'", [self.transitStop valueForKey:kJSONKeyPlacePointName]]
+
 If the request fails (either by the API returning a non-200 Status Code, or an `APIResponse` with the `Success` field set to `FALSE`) then the client returns a `nil` response object and an appropriate `displayError` string broadly describing the reason for failure. _Note that the raw HTTP message describing failure information is not currently passed through by the client._
+
+At the moment, no NSObject classes are provided to correspond with the API data model, however if sufficient developer feedback is received, this will be reviewed in a future release.
 
 ## 2. The iOS Demo App
 
@@ -52,3 +60,9 @@ The demo app uses the `UrbanThingsAPIClient` described above to make a request t
         // Handle the error, by displaying the string displayError
     }
     }];
+
+## Future Development
+We are soliciting requests from the community for the ongoing development of this SDK; either by:
+
+- *Feature requests* - let us know what you would like to see in the SDK.
+- *Pull requests* -  if you wish to fork the SDK and add in functionality, we will gladly consider pull requests to merge these back into the SDK.
