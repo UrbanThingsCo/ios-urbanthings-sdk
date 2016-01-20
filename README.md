@@ -20,7 +20,27 @@ The SDK is shipped as an XCode Project made up of two separate targets
 The demo app depends upon the Framework, which is, by default, embedded inside it.
 
 ## 1. The SDK Framework
-The framework consists of, for now, a relatively simple `UrbanThingsAPIClient` class that handles the heavy lifting of making HTTP `GET` and `POST` requests to the API.
+The framework consists of, for now, a lightweight `UrbanThingsAPIClient` class that handles the heavy lifting of making HTTP `GET` and `POST` requests to the API.
+
+To make a `GET` request, use code similar to:
+
+    [apiClient makeHttpGetRequestWithPath:@"/api/2.0/static/datasets"
+                             queryItems:nil
+                             completion:^(BOOL success, NSString *displayError, id responseObject) {
+                                 if (success)
+                                    ...
+                                 else
+                                    ...
+                             }];
+
+To make a `POST` request, use code similar to:
+
+    [apiClient makeHttpPostRequestWithPath:@"/api/2.0/static/datasets"
+                             queryItems:nil
+                             postObject: someObject
+                             completion:...];
+
+Note that, when POSTing objects, you should not serialize these to JSON yourself; instead, pass an NSArray or NSDictionary object and the serialization will be handled automatically by the `UrbanThingsApiClient`.
 
 Data is returned, via a completion block:
 
