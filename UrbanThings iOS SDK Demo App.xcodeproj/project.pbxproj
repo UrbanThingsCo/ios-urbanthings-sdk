@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C38AD3AD1C4E57690028062C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C38AD3AC1C4E57690028062C /* main.m */; };
+		C38AD3B01C4E57690028062C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C38AD3AF1C4E57690028062C /* AppDelegate.m */; };
+		C38AD3B31C4E57690028062C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38AD3B21C4E57690028062C /* MasterViewController.m */; };
+		C38AD3B61C4E57690028062C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38AD3B51C4E57690028062C /* DetailViewController.m */; };
+		C38AD3B91C4E57690028062C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38AD3B71C4E57690028062C /* Main.storyboard */; };
+		C38AD3BB1C4E57690028062C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38AD3BA1C4E57690028062C /* Assets.xcassets */; };
+		C38AD3BE1C4E57690028062C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38AD3BC1C4E57690028062C /* LaunchScreen.storyboard */; };
+		C38AD3CD1C4E581C0028062C /* Urban Things iOS SDK Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = C38AD3CC1C4E581C0028062C /* Urban Things iOS SDK Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C38AD3D11C4E581C0028062C /* UrbanThingsiOSSDKFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38AD3CA1C4E581C0028062C /* UrbanThingsiOSSDKFramework.framework */; };
+		C38AD3D21C4E581C0028062C /* UrbanThingsiOSSDKFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C38AD3CA1C4E581C0028062C /* UrbanThingsiOSSDKFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C38AD3FD1C4E5BEF0028062C /* NSDictionaryCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = C38AD3FB1C4E5BEF0028062C /* NSDictionaryCategories.h */; };
+		C38AD3FE1C4E5BEF0028062C /* NSDictionaryCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = C38AD3FC1C4E5BEF0028062C /* NSDictionaryCategories.m */; };
+		C38AD4011C4E60FB0028062C /* TransitDataSerializationConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C38AD3FF1C4E60FB0028062C /* TransitDataSerializationConstants.h */; };
+		C38AD4021C4E60FB0028062C /* TransitDataSerializationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C38AD4001C4E60FB0028062C /* TransitDataSerializationConstants.m */; };
+		C38AD4041C4E61BB0028062C /* VehicleTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = C38AD4031C4E61BB0028062C /* VehicleTypes.h */; };
+		C38AD40A1C4E7B410028062C /* UrbanThingsAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C38AD4081C4E7B410028062C /* UrbanThingsAPIClient.h */; };
+		C38AD40B1C4E7B410028062C /* UrbanThingsAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C38AD4091C4E7B410028062C /* UrbanThingsAPIClient.m */; };
+		C38AD40D1C4E7BE60028062C /* MyAPIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C38AD40C1C4E7BE60028062C /* MyAPIConstants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C38AD3CF1C4E581C0028062C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38AD3A01C4E57690028062C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38AD3C91C4E581C0028062C;
+			remoteInfo = "Urban Things Mobile SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C38AD3D61C4E581C0028062C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C38AD3D21C4E581C0028062C /* UrbanThingsiOSSDKFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C38AD3A81C4E57690028062C /* UrbanThingsiOSSDKDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbanThingsiOSSDKDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38AD3AC1C4E57690028062C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C38AD3AE1C4E57690028062C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C38AD3AF1C4E57690028062C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C38AD3B11C4E57690028062C /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C38AD3B21C4E57690028062C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C38AD3B41C4E57690028062C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C38AD3B51C4E57690028062C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C38AD3B81C4E57690028062C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C38AD3BA1C4E57690028062C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C38AD3BD1C4E57690028062C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C38AD3BF1C4E57690028062C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38AD3CA1C4E581C0028062C /* UrbanThingsiOSSDKFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UrbanThingsiOSSDKFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38AD3CC1C4E581C0028062C /* Urban Things iOS SDK Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Urban Things iOS SDK Framework.h"; sourceTree = "<group>"; };
+		C38AD3CE1C4E581C0028062C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38AD3FB1C4E5BEF0028062C /* NSDictionaryCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryCategories.h; sourceTree = "<group>"; };
+		C38AD3FC1C4E5BEF0028062C /* NSDictionaryCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryCategories.m; sourceTree = "<group>"; };
+		C38AD3FF1C4E60FB0028062C /* TransitDataSerializationConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitDataSerializationConstants.h; sourceTree = "<group>"; };
+		C38AD4001C4E60FB0028062C /* TransitDataSerializationConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitDataSerializationConstants.m; sourceTree = "<group>"; };
+		C38AD4031C4E61BB0028062C /* VehicleTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleTypes.h; sourceTree = "<group>"; };
+		C38AD4081C4E7B410028062C /* UrbanThingsAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrbanThingsAPIClient.h; sourceTree = "<group>"; };
+		C38AD4091C4E7B410028062C /* UrbanThingsAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrbanThingsAPIClient.m; sourceTree = "<group>"; };
+		C38AD40C1C4E7BE60028062C /* MyAPIConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAPIConstants.m; sourceTree = "<group>"; };
+		C38AD40E1C4E7C0A0028062C /* MyAPIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAPIConstants.h; sourceTree = "<group>"; };
+		C38AD42C1C4EA9BF0028062C /* PlacePointTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacePointTypes.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C38AD3A51C4E57690028062C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38AD3D11C4E581C0028062C /* UrbanThingsiOSSDKFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38AD3C61C4E581C0028062C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C38AD39F1C4E57690028062C = {
+			isa = PBXGroup;
+			children = (
+				C38AD3AA1C4E57690028062C /* UrbanThings iOS SDK Demo App */,
+				C38AD3CB1C4E581C0028062C /* Urban Things iOS SDK Framework */,
+				C38AD3A91C4E57690028062C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C38AD3A91C4E57690028062C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C38AD3A81C4E57690028062C /* UrbanThingsiOSSDKDemoApp.app */,
+				C38AD3CA1C4E581C0028062C /* UrbanThingsiOSSDKFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C38AD3AA1C4E57690028062C /* UrbanThings iOS SDK Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				C38AD40E1C4E7C0A0028062C /* MyAPIConstants.h */,
+				C38AD40C1C4E7BE60028062C /* MyAPIConstants.m */,
+				C38AD3AE1C4E57690028062C /* AppDelegate.h */,
+				C38AD3AF1C4E57690028062C /* AppDelegate.m */,
+				C38AD3B11C4E57690028062C /* MasterViewController.h */,
+				C38AD3B21C4E57690028062C /* MasterViewController.m */,
+				C38AD3B41C4E57690028062C /* DetailViewController.h */,
+				C38AD3B51C4E57690028062C /* DetailViewController.m */,
+				C38AD3B71C4E57690028062C /* Main.storyboard */,
+				C38AD3BA1C4E57690028062C /* Assets.xcassets */,
+				C38AD3BC1C4E57690028062C /* LaunchScreen.storyboard */,
+				C38AD3BF1C4E57690028062C /* Info.plist */,
+				C38AD3AB1C4E57690028062C /* Supporting Files */,
+			);
+			name = "UrbanThings iOS SDK Demo App";
+			path = "UrbanThings Mobile SDK Demo App";
+			sourceTree = "<group>";
+		};
+		C38AD3AB1C4E57690028062C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C38AD3AC1C4E57690028062C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C38AD3CB1C4E581C0028062C /* Urban Things iOS SDK Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C38AD42E1C4EAC100028062C /* Constants */,
+				C38AD42D1C4EAA4A0028062C /* Client */,
+				C38AD4071C4E61E60028062C /* Categories */,
+				C38AD4061C4E61DF0028062C /* Enums */,
+				C38AD3CC1C4E581C0028062C /* Urban Things iOS SDK Framework.h */,
+				C38AD3CE1C4E581C0028062C /* Info.plist */,
+			);
+			name = "Urban Things iOS SDK Framework";
+			path = "Urban Things Mobile SDK";
+			sourceTree = "<group>";
+		};
+		C38AD4061C4E61DF0028062C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				C38AD4031C4E61BB0028062C /* VehicleTypes.h */,
+				C38AD42C1C4EA9BF0028062C /* PlacePointTypes.h */,
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+		C38AD4071C4E61E60028062C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C38AD3FB1C4E5BEF0028062C /* NSDictionaryCategories.h */,
+				C38AD3FC1C4E5BEF0028062C /* NSDictionaryCategories.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		C38AD42D1C4EAA4A0028062C /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				C38AD4081C4E7B410028062C /* UrbanThingsAPIClient.h */,
+				C38AD4091C4E7B410028062C /* UrbanThingsAPIClient.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		C38AD42E1C4EAC100028062C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C38AD3FF1C4E60FB0028062C /* TransitDataSerializationConstants.h */,
+				C38AD4001C4E60FB0028062C /* TransitDataSerializationConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C38AD3C71C4E581C0028062C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38AD40A1C4E7B410028062C /* UrbanThingsAPIClient.h in Headers */,
+				C38AD4041C4E61BB0028062C /* VehicleTypes.h in Headers */,
+				C38AD3FD1C4E5BEF0028062C /* NSDictionaryCategories.h in Headers */,
+				C38AD3CD1C4E581C0028062C /* Urban Things iOS SDK Framework.h in Headers */,
+				C38AD4011C4E60FB0028062C /* TransitDataSerializationConstants.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C38AD3A71C4E57690028062C /* UrbanThingsiOSSDKDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38AD3C21C4E57690028062C /* Build configuration list for PBXNativeTarget "UrbanThingsiOSSDKDemoApp" */;
+			buildPhases = (
+				C38AD3A41C4E57690028062C /* Sources */,
+				C38AD3A51C4E57690028062C /* Frameworks */,
+				C38AD3A61C4E57690028062C /* Resources */,
+				C38AD3D61C4E581C0028062C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38AD3D01C4E581C0028062C /* PBXTargetDependency */,
+			);
+			name = UrbanThingsiOSSDKDemoApp;
+			productName = "UrbanThings Mobile SDK Demo App";
+			productReference = C38AD3A81C4E57690028062C /* UrbanThingsiOSSDKDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C38AD3C91C4E581C0028062C /* UrbanThingsiOSSDKFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38AD3D31C4E581C0028062C /* Build configuration list for PBXNativeTarget "UrbanThingsiOSSDKFramework" */;
+			buildPhases = (
+				C38AD3C51C4E581C0028062C /* Sources */,
+				C38AD3C61C4E581C0028062C /* Frameworks */,
+				C38AD3C71C4E581C0028062C /* Headers */,
+				C38AD3C81C4E581C0028062C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UrbanThingsiOSSDKFramework;
+			productName = "Urban Things Mobile SDK";
+			productReference = C38AD3CA1C4E581C0028062C /* UrbanThingsiOSSDKFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C38AD3A01C4E57690028062C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = UrbanThings;
+				TargetAttributes = {
+					C38AD3A71C4E57690028062C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C38AD3C91C4E581C0028062C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C38AD3A31C4E57690028062C /* Build configuration list for PBXProject "UrbanThings iOS SDK Demo App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C38AD39F1C4E57690028062C;
+			productRefGroup = C38AD3A91C4E57690028062C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C38AD3A71C4E57690028062C /* UrbanThingsiOSSDKDemoApp */,
+				C38AD3C91C4E581C0028062C /* UrbanThingsiOSSDKFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C38AD3A61C4E57690028062C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38AD3BE1C4E57690028062C /* LaunchScreen.storyboard in Resources */,
+				C38AD3BB1C4E57690028062C /* Assets.xcassets in Resources */,
+				C38AD3B91C4E57690028062C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38AD3C81C4E581C0028062C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C38AD3A41C4E57690028062C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38AD3B01C4E57690028062C /* AppDelegate.m in Sources */,
+				C38AD3B31C4E57690028062C /* MasterViewController.m in Sources */,
+				C38AD3AD1C4E57690028062C /* main.m in Sources */,
+				C38AD3B61C4E57690028062C /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38AD3C51C4E581C0028062C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38AD40D1C4E7BE60028062C /* MyAPIConstants.m in Sources */,
+				C38AD3FE1C4E5BEF0028062C /* NSDictionaryCategories.m in Sources */,
+				C38AD4021C4E60FB0028062C /* TransitDataSerializationConstants.m in Sources */,
+				C38AD40B1C4E7B410028062C /* UrbanThingsAPIClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C38AD3D01C4E581C0028062C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38AD3C91C4E581C0028062C /* UrbanThingsiOSSDKFramework */;
+			targetProxy = C38AD3CF1C4E581C0028062C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C38AD3B71C4E57690028062C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38AD3B81C4E57690028062C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C38AD3BC1C4E57690028062C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38AD3BD1C4E57690028062C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C38AD3C01C4E57690028062C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C38AD3C11C4E57690028062C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C38AD3C31C4E57690028062C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UrbanThings Mobile SDK Demo App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.urbanthings.UrbanThings-iOS-SDK-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C38AD3C41C4E57690028062C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UrbanThings Mobile SDK Demo App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.urbanthings.UrbanThings-iOS-SDK-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C38AD3D41C4E581C0028062C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Urban Things Mobile SDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.urbanthings.Urban-Things-iOS-SDK-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C38AD3D51C4E581C0028062C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Urban Things Mobile SDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.urbanthings.Urban-Things-iOS-SDK-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C38AD3A31C4E57690028062C /* Build configuration list for PBXProject "UrbanThings iOS SDK Demo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38AD3C01C4E57690028062C /* Debug */,
+				C38AD3C11C4E57690028062C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38AD3C21C4E57690028062C /* Build configuration list for PBXNativeTarget "UrbanThingsiOSSDKDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38AD3C31C4E57690028062C /* Debug */,
+				C38AD3C41C4E57690028062C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38AD3D31C4E581C0028062C /* Build configuration list for PBXNativeTarget "UrbanThingsiOSSDKFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38AD3D41C4E581C0028062C /* Debug */,
+				C38AD3D51C4E581C0028062C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C38AD3A01C4E57690028062C /* Project object */;
+}
