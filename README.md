@@ -93,3 +93,6 @@ We are soliciting requests from the community for the ongoing development of thi
 
 - *Feature requests* - let us know what you would like to see in the SDK.
 - *Pull requests* -  if you wish to fork the SDK and add in functionality, we will gladly consider pull requests to merge these back into the SDK.
+
+
+*This ReadMe refers to the Urban Things API - see [Urban Things](http://www.urbanthings.co) *
