@@ -68,18 +68,25 @@ The demo app uses the `UrbanThingsAPIClient` described above to make a request t
 
     UrbanThingsAPIClient * apiClient = [[UrbanThingsAPIClient alloc] initWithBaseURL:kAPIBaseURL apiKey:kAPIKey];
  
-     [self.apiClient makeHttpGetRequestWithPath:@"/api/2.0/static/stops"
-        queryItems:@[[NSURLQueryItem queryItemWithName:@"some_querystring_paramter_key" value:@"some_value"]]
-        completion:^(BOOL success, NSString *displayError, id responseObject) {
-    if (success)
-    {
-        // Do something with responseObject, which will be either an NSArray or a NSDictionary
-    }
-    else
-    {
-        // Handle the error, by displaying the string displayError
-    }
+    [self.apiClient makeHttpGetRequestWithPath:@"/api/2.0/static/stops"
+     queryItems:@[[NSURLQueryItem queryItemWithName:@"minLat" value:@"51.025"],
+                  [NSURLQueryItem queryItemWithName:@"minLng" value:@"-2.865"],
+                  [NSURLQueryItem queryItemWithName:@"maxlat" value:@"51.816"],
+                  [NSURLQueryItem queryItemWithName:@"maxlng" value:@"-2.295"],
+                  [NSURLQueryItem queryItemWithName:@"stopmodes" value: [@(VehicleTypeCar) stringValue]  ]]
+     completion:^(BOOL success, NSString *displayError, id responseObject) {
+         if (success)
+         {
+             // Store the array of NSDictionary objects, each of which represents a TransitStop
+             self.transitStops  = responseObject;
+             [self.tableView reloadData];
+         }
+         else
+         {
+             [self handleErrorWithLocalizedDescription:displayError];
+         }
     }];
+    
 
 ## Future Development
 We are soliciting requests from the community for the ongoing development of this SDK; either by:
