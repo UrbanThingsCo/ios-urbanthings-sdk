@@ -1,5 +1,5 @@
 # UrbanThings iOS SDK v0.8
-iOS UrbanThings Mobile SDK - Create iOS apps that connect to the UrbanThings API to retrieve smart city data
+_Create iOS apps that connect to the UrbanThings API to retrieve smart city data_
 
 This SDK allows you to quickly get up-and-running with an iOS-friendly client to access the [Urban Things API / Bristol API](https://portal-bristol.api.urbanthings.i)
 
