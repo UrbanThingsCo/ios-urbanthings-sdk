@@ -35,12 +35,12 @@ To make a `GET` request, use code similar to:
 
 To make a `POST` request, use code similar to:
 
-    [apiClient makeHttpPostRequestWithPath:@"/api/2.0/static/datasets"
+    [apiClient makeHttpPostRequestWithPath:@"/api/2.0/plan/directions"
                              queryItems:nil
-                             postObject: someObject
+                             postObject: directionsRequestObject
                              completion:...];
 
-Note that, when POSTing objects, you should not serialize these to JSON yourself; instead, pass an NSArray or NSDictionary object and the serialization will be handled automatically by the `UrbanThingsApiClient`.
+Note that, when POSTing objects, you should not serialize these to JSON yourself; instead, pass an `NSArray` or `NSDictionary` object and  serialization will be handled automatically by the `UrbanThingsApiClient`.
 
 Data is returned, via a completion block:
 
